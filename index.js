@@ -69,7 +69,9 @@ inquirer
     ])
     .then((responses) => {
         console.log(responses);
+        // Combines the readme template with responses to the questions
         const newFile = template(responses);
+        // Creates a new .md file wtih the template and responses
         fs.writeFile('Test.md', newFile, (err) =>
         err ? console.log(err) : console.log("Created README file."))
     })
