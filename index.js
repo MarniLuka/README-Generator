@@ -69,7 +69,8 @@ inquirer
     ])
     .then((responses) => {
         console.log(responses);
-        fs.writeFile('Test.md', responses, (err) =>
+        const newFile = template(responses);
+        fs.writeFile('Test.md', newFile, (err) =>
         err ? console.log(err) : console.log("Created README file."))
     })
 
