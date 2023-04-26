@@ -106,8 +106,8 @@ ${responses.license}
 ## Tests
 ${responses.test}
 
-##Questions
+## Questions
 For any additional questions, contact me at:
-[Github](${responses.username})
-[Email])(${responses.email})
+ - [Github](https://github.com/${responses.username})
+ - [Email](${responses.email})
 `;

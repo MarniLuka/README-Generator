@@ -1,7 +1,7 @@
-# readme
+# die
 
 ## Description
-make a readme in node
+kill
 
 ## Table of Contents
 
@@ -13,21 +13,21 @@ make a readme in node
 - [Questions](#questions)
 
 ## Installation
-n/a
+stab
 
 ## Usage
-answer questions in terminal
+poison
 
 ## Credits
-n/a
+assassins
 
 ## License
 None
 
 ## Tests
-n/a
+kill them dead
 
-##Questions
+## Questions
 For any additional questions, contact me at:
-[Github](marniluka)
-[Email])(marnixluka@gmail.com)
+ - [Github](https://github.com/MarniLuka)
+ - [Email](marnixluka@gmail.com)
