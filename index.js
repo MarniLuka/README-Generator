@@ -69,6 +69,8 @@ inquirer
     ])
     .then((responses) => {
         console.log(responses);
+        fs.writeFile('Test.md', responses, (err) =>
+        err ? console.log(err) : console.log("Created README file."))
     })
 
 
@@ -107,12 +109,4 @@ ${responses.test}
 For any additional questions, contact me at:
 [Github](${responses.username})
 [Email])(${responses.email})
-`
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+`;
