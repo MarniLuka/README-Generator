@@ -67,7 +67,47 @@ inquirer
             name: 'email',
         },
     ])
+    .then((responses) => {
+        console.log(responses);
+    })
 
+
+// README Template using template literals
+const template = (responses) =>
+`# ${responses.title}
+
+## Description
+${responses.description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+${responses.installation}
+
+## Usage
+${responses.usage}
+
+## Credits
+${responses.credits}
+
+## License
+${responses.license}
+
+## Tests
+${responses.test}
+
+##Questions
+For any additional questions, contact me at:
+[Github](${responses.username})
+[Email])(${responses.email})
+`
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
