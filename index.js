@@ -34,6 +34,7 @@ inquirer
             type: 'list',
             message: 'Select a license:',
             name: 'license',
+            // All the license choices I found that were available on GitHub
             choices: [
                 'None',
                 'Apache License 2.0',
