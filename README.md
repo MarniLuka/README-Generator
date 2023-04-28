@@ -5,7 +5,7 @@
 Using only JavaScript, we had to create a way to generate a proper README file. Node.JS and Inquirer were used to accomplish this.
 
 ## Installation
-Node.js is required to be downloaded to use this application. Inquirer is also needed, but should be provided within the repository. 
+Node.js and Inquirer are required to be downloaded to use this application.
 ## Usage
 
 To start generating a READEME.md file, you have to run 'node index.js' in your terminal. Then, answer the following questions as you would when writing a normal README. If there's no information to input for a certain prompt, simply write N/A. Upon finishing all the questions, you should receive a message stating 'Created README file.' This means that the file was successfully created. If you receive an error, then you should try again.
