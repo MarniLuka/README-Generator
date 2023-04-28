@@ -61,6 +61,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-
-
-[![${license}](https://img.shields.io/badge/license-MIT-blue.svg)
